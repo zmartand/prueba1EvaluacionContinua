@@ -15,8 +15,9 @@ License.
 package Ejercicio2_1.mates;
 
 import java.util.Scanner;
-
 public class Matematicas {
+
+    // Ejercicio 1.2
     public void MetodoMontecarlo() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese la cantidad de puntos a generar: ");
@@ -30,15 +31,13 @@ public class Matematicas {
                 aciertos++;
             }
         }
-        System.out.println("El valor de pi es: " + areaCuadrado * (aciertos / puntosTotales));
-
+        System.out.println("El valor de pi es: " + areaCuadrado * ((double) aciertos / (double) puntosTotales));
     }
 
     public static void main(String[] args) {
         Matematicas m = new Matematicas();
         m.MetodoMontecarlo();
     }
-
-
 }
+
 
