@@ -17,7 +17,7 @@ import Ejercicio2_2.dominio.Tablero;
 import java.util.concurrent.TimeUnit;
 
 public class Principal {
-    public static void main(String[] args) {
+    public  void Simulacion() {
         try {
             Tablero tablero = new Tablero();
 
