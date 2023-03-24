@@ -33,11 +33,6 @@ public class Matematicas {
         }
         System.out.println("El valor de pi es: " + areaCuadrado * ((double) aciertos / (double) puntosTotales));
     }
-
-    public static void main(String[] args) {
-        Matematicas m = new Matematicas();
-        m.MetodoMontecarlo();
-    }
 }
 
 
