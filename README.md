@@ -96,18 +96,15 @@ public void generarEstadoActualPorMontecarlo(){}
 // en ‘estadoActual‘ y, utilizando las reglas del juego
 // de la vida, se insertan los ceros y unos
 // correspondientes en ‘estadoSiguiente‘.
-/********************************************************
 * Transita al estado siguiente según las reglas del
 * juego de la vida.
-********************************************************/
 public void transitarAlEstadoSiguiente(){}
-// La variable ‘estadoActual‘ pasa a tener el contenido
-// de ‘estadoSiguiente‘ y, éste útimo atributo pasar a
-// reflejar el siguiente estado.
-/*******************************************************
+ La variable ‘estadoActual‘ pasa a tener el contenido
+ de ‘estadoSiguiente‘ y, éste útimo atributo pasar a
+ reflejar el siguiente estado.
 * Devuelve, en modo texto, el estado actual.
 * @return el estado actual.
-*******************************************************/
+
 @Override
 public String toString(){
 return ""; // Esta línea hay que modificarla.
