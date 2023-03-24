@@ -159,7 +159,6 @@ public class Graph<V>{
 private Map<V, Set<V>> adjacencyList = new HashMap<>();
 
 * Añade el vértice ‘v‘ al grafo.
-*
 * @param v vértice a añadir.
 * @return ‘true‘ si no estaba anteriormente y ‘false‘ en caso
 * contrario.
@@ -171,7 +170,6 @@ return true; //Este código hay que modificarlo.
 * Añade un arco entre los vértices ‘v1‘ y ‘v2‘ al grafo. En
 * caso de que no exista alguno de los vértices, lo añade
 * también.
-*
 * @param v1 el origen del arco.
 * @param v2 el destino del arco.
 * @return ‘true‘ si no existía el arco y ‘false‘ en caso
@@ -182,7 +180,6 @@ return true; //Este código hay que modificarlo.
 }
 
 * Obtiene el conjunto de vértices adyacentes a ‘v‘.
-*
 * @param v vértice del que se obtienen los adyacentes.
 * @return conjunto de vértices adyacentes.
 
@@ -191,7 +188,6 @@ return null; //Este código hay que modificarlo.
 }
 
 * Comprueba si el grafo contiene el vértice dado.
-*
 * @param v vértice para el que se realiza la comprobación.
 * @return ‘true‘ si ‘v‘ es un vértice del grafo.
 
@@ -208,7 +204,6 @@ return ""; //Este código hay que modificarlo.
 }
 * Obtiene, en caso de que exista, un camino entre ‘v1‘ y
 * ‘v2‘. En caso contrario, devuelve ‘null‘.
-*
 * @param v1 el vértice origen.
 * @param v2 el vértice destino.
 * @return lista con la secuencia de vértices desde ‘v1‘ hasta
@@ -258,10 +253,8 @@ vértice destino, se podría reconstruir el camino A, B, D.
 La pila abierta contiene aquellos vértices del árbol de búsqueda que han
 sido generados y que están pendientes de ser examinados.
 El código debe pasar, al menos, la siguiente prueba:
-/**
 * Este test comprueba que el método ‘onePath(V v1, V v2)‘
 * encuentra un camino entre ‘v1‘ y ‘v2‘ cuando existe.
-*/
 @Test
 public void onePathFindsAPath(){
 System.out.println("\nTest onePathFindsAPath");
